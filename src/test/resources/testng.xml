@@ -5,11 +5,11 @@
 </listeners>
 <test name="DemoTest">
     <classes>
-          <!--<class name="Tests.LoginTests"/>  -->  
+          <class name="Tests.LoginTests"/>
            <!--<class name="Pages.RegisterTests"/> --> 
           <!-- <class name="Pages.HomePageTest"/>-->
            <!-- <class name="Pages.CartTest"/>-->
-           <class name="Pages.CheckOutTest"/>
+          <!-- <class name="Pages.CheckOutTest"/>--> 
         </classes>
     </test>
 </suite>
