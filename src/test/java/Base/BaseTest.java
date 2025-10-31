@@ -29,7 +29,10 @@ public class BaseTest
 		driver.get(BaseUrl);
 		
 	}
-	
+	public WebDriver getDriver() {
+        return driver;
+    }
+
 	@AfterMethod
 	public void tearDown()
 	{
